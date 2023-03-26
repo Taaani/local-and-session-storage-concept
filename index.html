@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local storage</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Local storage </h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="flex-grow-1 flex-shrink-0">
+        <div class="container">
+            <div class="row">
+                <div class="col divClass">
+
+
+                    <div class="input-group mb-3">
+
+                        <input type="text" class="form-control" placeholder="Enter any thing" id="input">
+                    </div>
+                    <div class="text-center">
+                        <button class=" btn btn-primary " id="button1" onclick="addDataLocalStorage()">add your data
+                            in localStorag</button>
+
+                        <button class=" btn btn-primary " id="" onclick="getData()">getdata</button>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <h2>output/ Results</h2>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col text-center" id="output">
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- <button class="btn btn-success" onclick="addDataLocalStorage()">dadjf</button> -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
